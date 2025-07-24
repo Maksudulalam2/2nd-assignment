@@ -1,0 +1,75 @@
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* text-colour */
+
+.text-black{
+    color: rgba(0, 0, 0, 1);
+}
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* navbar styles */
+.navbar{
+    justify-content: space-between;
+    width: 1140px;
+    align-items: center;
+    margin: 0 0 29px 0;
+    
+}
+.nav-links{
+    
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 415;
+    color:rgba(0, 0, 0, 1);
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* responsive media query
+@media screen and(max-width: 800px) {
+    .navbar, .banner{
+        flex-direction: column-reverse;
+    }
+} */
+
+/* banner section */
+.banner{
+    align-items: center;
+    width: 1140px;
+}
+.banner-title{
+    font-size: 4rem;
+}
+.banner-description{
+    font-size: 2rem;
+}
+.span{
+    color: rgba(233, 90, 8, 1);
+}
+
+/* responsive */
+@media screen and(max-width: 640px) {
+   .banner{
+   display: none;
+   }
+    
+}
