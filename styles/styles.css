@@ -85,12 +85,64 @@
     display: grid;
     grid-template-columns: repeat(4, 0.5fr);
     text-align: center;
+   
+}
+.card-list{
+    padding: 5%;
+    margin: 5%;
+    border: 1px solid white;
 }
 .btn-primary{
     padding: 20px 20px;
     background-color: rgba(233, 90, 8, 1);
     color: rgba(255, 255, 255, 1);
     text-align: center;
+    border-radius: 5px;
+}
+
+/* flower&lover section */
+
+.plants-flowers{
+    margin: 210px 150px;
+}
+.badge{
+    width: 100%;
+    background:transparent;
+    margin-top: -50px;
+    margin-left: -650px;
+    
+}
+.flower-headline{
+    font-size: 3.12rem;
+    padding-left: 50px;
+}
+
+.flower-description{
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 70px;
+}
+
+.join-section{
+   background-image: url("/assets/news-letter-bg.png");
+   width: 1440px;
+   height: 400px;
+}
+.join-headline{
+    font-size: 4rem;
+    margin-left: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+.join-input{
+    margin-left: 300px;
+    width: 644px;
+    height: 50px;
+}
+#btn{
+    width: 186px;
+    height: 50px;
+    /* gap: 10; */
+    background: rgba(233, 90, 8, 1);
 }
 /* responsive */
 @media screen and(max-width: 640px) {
