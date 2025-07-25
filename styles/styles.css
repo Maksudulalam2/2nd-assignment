@@ -259,6 +259,8 @@
    .badge{
     display: none;
    }
+
+   /* join-sections */
    .join-section{
     max-width: 100%;
     height: 100%;
