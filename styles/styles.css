@@ -44,13 +44,6 @@
     margin: 0 auto;
 }
 
-/* responsive media query
-@media screen and(max-width: 800px) {
-    .navbar, .banner{
-        flex-direction: column-reverse;
-    }
-} */
-
 /* banner section */
 .banner{
     align-items: center;
@@ -186,10 +179,115 @@
     gap: 30px;
     align-items: center;
 }
-/* responsive */
-@media screen and(max-width: 640px) {
-   .banner{
-   display: none;
+/* responsive section */
+
+
+
+@media screen and (max-width: 576px) {
+   /* header section */
+   
+    .navbar{
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    gap: 100px;
    }
+   .nav-1{
+    display: none;
+   }
+   .banner{
+    flex-direction: column-reverse;
+    width: 100%;
+    /* height: fit-content; */
+    padding: 20px;
+    margin:20px;
+    align-items: left;
+    }
+   .banner-title{
+    font-size: 2rem;
+    font-weight: 50%;
+    text-align: left;
+   }
+   .banner-description{
+    font-size: 1rem;
+    font-weight: 100%;
     
+   }
+   .banner-pic{
+    width: 100%;
+   }
+   /* main section */
+   .our-plants{
+    width: 30%;
+    height: 100%;
+    gap: 16px;
+    text-align: center;
+    border: none;
+    
+   }
+   .our-plants-headline{
+    width: fit-content;
+    font-size: 1.5rem;
+    font-weight: 100%;
+   }
+   .our-plants-description{
+    font-size: 0.8rem;
+    max-width: 100%;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+   }
+   .card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+   }
+   .card-list{
+    
+   }
+
+
+
+   /* flower plants */
+   .plants-flowers{
+    flex-direction: column;
+    width: 100%;
+    margin: 0 10px;
+    height: auto;
+    border: 1px solid white;
+   }
+   .badge{
+    display: none;
+   }
+   .join-section{
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+   }
+   .join-headline{
+    font-size: 1.25rem;
+    font-weight: 100%;
+    padding: 10px;
+   }
+   .join-input{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    
+    padding: 5px;
+   }
+   .btn{
+    font-size: 1rem;
+    padding: 5px;
+   }
+   .footer{
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+   }
+   .links{
+    grid-template-columns: repeat(1, 1fr);
+   }
 }
