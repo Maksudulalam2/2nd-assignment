@@ -118,11 +118,10 @@
 }
 
 .join-section{
-   background-image: url("/assets/news-letter-bg.png");
    width: 1440px;
    height: 400px;
-   /* margin-bottom: 190px; */
    margin: auto;
+   background-image: url("/assets/news-letter-bg.png");
 }
 .join-headline{
     font-size: 4rem;
